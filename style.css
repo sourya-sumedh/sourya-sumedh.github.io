@@ -338,6 +338,30 @@ nav a:hover { color: var(--text); }
   color: var(--text);
 }
 
+.skills-strip {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.skills-strip p {
+  color: var(--muted);
+  font-size: .85rem;
+}
+
+.skills-strip p + p {
+  margin-top: 8px;
+}
+
+.skills-label {
+  color: var(--accent);
+  font-size: .66rem;
+  font-weight: 850;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
 .contact-section {
   background: var(--accent-dark);
   color: #fff;
